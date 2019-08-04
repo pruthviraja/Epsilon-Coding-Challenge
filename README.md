@@ -1,4 +1,8 @@
 # epsilon-codingApp
+Clone the repository using the following gitHub url 
+
+https://github.com/pruthviraja/Epsilon-Coding-Challenge.git
+
 
 NOTE: Once the repository is cloned, Run `npm-install`.
 
