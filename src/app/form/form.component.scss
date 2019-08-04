@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.form-box__form {
+  border-radius: 3px;
+  width: 320px;
+  height: auto;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.form-box__container {
+  display: flex;
+  width: 400px;
+  //min-height: calc(100vh - 110px);
+  border: groove;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+ // height: 42px;
+  cursor: pointer;
+  transition: all .5s ease;
+  outline: none;
+}
+
+// .button-default {
+//   border-radius: 4px;
+//   background-color: #0F5EF0;
+//   color: #ffffff;
+//   font-size: 12px;
+// height: 30px;
+//   &:not(:disabled):hover {
+//     background-color: #0C4BC0;
+//   }
+
+//   &:not(:disabled):focus {
+//     width: 95%;
+//   }
+// }
+
+.button-default {
+  background-color: #0F5EF0;
+  color: #ffffff;
+  font-size: 12px;
+height: 30px;
+&:not(:disabled):hover {
+      background-color: #0C4BC0;
+    }
+
+    &:not(:disabled):focus {
+      background-color: #0C4BC0;
+    }
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    transition: all .5s ease;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+}
+
+.input-field {
+  border: 1px solid #808080	;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+  margin: 5px auto 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  outline: none;
+  clear: both;
+  color: #333333;
+  transition: border-color .2s ease;
+
+  // &:focus {
+  //   border-color: #333333;
+  // }
+}
+
+
+.label {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 12px;
+  color: #221F4D;
+}
+
+::placeholder {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 12px;
+  color: #221F4D;
+  opacity: 0.5;
+  text-align: left;
+}

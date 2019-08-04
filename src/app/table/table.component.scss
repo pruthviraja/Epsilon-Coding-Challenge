@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.mat-row:nth-child(odd){
+  background-color: #F5F8FA;
+
+  }
+
+  .mat-row{
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: #221F4D;
+    border: none;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+  }
+
+.mat-row:nth-child(even){
+  background-color: #FFFFFF;
+  }
+
+.mat-row :hover {
+background: #E7EFFD;
+border: #0F5EF0;
+}
+  .mat-column-name{
+    min-width: 140px;
+    max-width: 400px;
+    padding-right: 15px;
+
+}
+.mat-column-price{
+    min-width: 70px;
+    max-width: 200px;
+
+}
+.mat-column-category{
+    min-width: 70px;
+    max-width: 200px;
+    padding-right: 15px;
+
+}
+
+
+
+.mat-header-row {
+  background: #CBD6E2;
+  font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}
+
+.mat-table {
+  border-style: groove;
+  width: 600px;
+}
+
+.mat-paginator {
+  width: 600px;
+  padding: 0 0;
+}

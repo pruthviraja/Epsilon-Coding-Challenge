@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.epsilon-container {
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+
+.epsilon-header {
+  width: auto;
+//  padding: 9px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-family: "Open Sans"
+}
+
+.epsilon-header__logo-container {
+  margin: auto;
+}
+
+.epsilon-header__logo {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  background: url('../../images/epsilon.gif.gif') center no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  display: flex;
+}
+
+
+.epsilon-box__container {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 110px);
+}
+
+.epsilon-footer__container {
+   border-top: 1px solid #ccc;
+  position: absolute;
+ bottom: 0;
+ width: 100%;
+ display: flex;
+}
+
+.epsilon-footer__left-items, .epsilon-footer__right-items {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.epsilon-footer__logo {
+  width: 50px;
+  padding: 40px;
+  height: 24px;
+  margin: auto;
+  background: url('../../images/Epsilon_Black.svg') center no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  display: flex;
+}
+
+.twitter-social {
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background: url('../../images/twitter.svg') center no-repeat;
+  margin: 0 8px;
+}
+
+.facebook-social {
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background: url('../../images/facebook.svg') center no-repeat;
+  margin: 0 8px;
+}
+
+.linkedin-social {
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background: url('../../images/linkedin.svg') center no-repeat;
+  margin: 0 8px;
+}
+
+
+.card-button {
+  padding: 20px;
+  font-family: "Open Sans";
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+
+}
+
+.button-default {
+  height: 35px;
+  margin-left: 50px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: #0F5EF0;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  &:not(:disabled):hover {
+    background-color: #0C4BC0;
+  }
+
+}
